@@ -1,8 +1,11 @@
 {
   "name": "wp5-starter-react",
   "version": "1.0.1",
+  "engines": {
+    "node": "v14.18.3"
+  },
   "scripts": {
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider webpack --mode production ",
+    "build": "webpack --mode production ",
     "build:dev": "webpack --mode development",
     "build:start": "cd dist && PORT=8080 npx serve",
     "start": "webpack serve --open --mode development",
