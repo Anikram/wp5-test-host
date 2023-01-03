@@ -2,7 +2,7 @@
   "name": "wp5-starter-react",
   "version": "1.0.1",
   "engines": {
-    "node": "v14.18.3"
+    "node": "v14.21.1"
   },
   "scripts": {
     "build": "webpack --mode production ",
